@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box" style="display:flex;" data-createdby="prince"> Hello guys </div>
+            <div class="box">Hey hello </div>
+            <script>
+                // let div=document.createElement("div");
+                // div.innerHTML="I have inserted <br>by prince</br>"
+                // div.setAttribute("class","created");
+                //this is insertion method append, prepend, before, after, replacewith
+                //document.querySelector(".container").append(div)
+                
+                // this is Adjacent html
+                let cont=document.querySelector(".container")
+                cont.insertAdjacentHTML("afterend","<br>I am a good person and believelable</br>")
+            </script>
+        </div>
+    </body>
+</html>
